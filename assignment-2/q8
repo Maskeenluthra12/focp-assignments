@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    //ques8
+    int marks[5]={98,23,46,90,33};
+    int max=marks[0],min=marks[0];
+    for(int i=0;i<5;i++)
+    {
+        if(marks[i]>=max)
+        max=marks[i];
+        else if(marks[i]<=min)
+        min=marks[i];
+    }
+    printf("Maximum marks=%d\n",max);
+    printf("Minimum marks=%d\n",min);
+    return 0;
+}
