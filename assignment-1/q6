@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() 
+{
+    //ques 6
+    int x,y;
+    printf("Enter x,y coordinates:\n");
+    scanf("%d %d",&x,&y);
+    if(x>0 && y>0)
+    printf("First Quadrant");
+    else if(x<0 && y>0)
+    printf("Second Quadrant");
+    else if(x<0 && y<0)
+    printf("Third Quadrant");
+else if(x>0 && y<0)
+    printf("Fourth Quadrant");
+    return 0;
+}
+
