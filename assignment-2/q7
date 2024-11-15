@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+    //ques7
+    int marks[5]={90,28,45,87,22};
+    for(int i=0;i<5;i++)
+    {
+if(marks[i]%2==0)
+        printf("Score %d is Even\n",marks[i]);
+        else
+        printf("Score %d is odd\n",marks[i]);
+    }
+    return 0;
+}
