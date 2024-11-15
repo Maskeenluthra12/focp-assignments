@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() 
+{
+    //ques4
+    int marks[5], name[5], count=0;
+    printf("Enter Name and Marks:\n");
+    for(int i=0;i<5;i++)
+    {
+        scanf("%s",&name[i]);
+        scanf("%d",&marks[i]);
+    }
+    printf("Students who scored 99 are:\n");
+    for(int i=0;i<5;i++)
+    {
+        if(marks[i]==99)
+        {
+            printf("Student %d \n",i+1);
+            count++;
+        }
+    }
+    printf("No. of Students who scored 99 are:%d",count);
+    return 0;
+}
