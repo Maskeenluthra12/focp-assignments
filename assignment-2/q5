@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+    //ques5
+    int sum=0;
+    int marks[5]={24,98,78,54,49};
+    for(int i=0;i<5;i++)
+    {
+        sum+=marks[i];
+    }
+    printf("SUM=%d",sum);
+    return 0;
+}
