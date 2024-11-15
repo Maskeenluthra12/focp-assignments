@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    //ques14
+    int count=0;
+    int a[15]={20,98,29,83,63,99,12,8,25,56,88,44,61,70,54};
+    printf("the Duplicate Elements are:\n");
+    for(int i=0;i<15;i++)
+    {
+        for(int j=0;j!=i;j++)
+        {
+            if(a[j]==a[i])
+            printf("%d,",a[j]);
+        }
+    }
+    return 0;
+}
